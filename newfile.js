@@ -6,8 +6,8 @@ function foo(x, y) {
 alert(foo(7));
 
 var capacity = 1;
-capacity = 2;
-capacity = capacity; var a = new Array(capacity + capacity>>1);
+capacity = 2
+var a = new Array(capacity + capacity>>1);
 
 
 function bar() {
