@@ -10,4 +10,5 @@
  
  import javascript
  
- select any(File f), "file"
+ from File f
+ select f, "this [should not link](1) [should](/not/link) $@ is a file", f, f.getRelativePath().toString()
